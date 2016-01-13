@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UITapGestureRecognizer</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    let doubleTap = UITapGestureRecognizer(target: self, action: "tapAction:")
+    doubleTap.numberOfTapsRequired = 2
+    doubleTap.requireGestureRecognizerToFail(tap)
+    scrollView.addGestureRecognizer(doubleTap)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B308F097-822B-4074-BF9C-3953811E31DB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITapGestureRecognizer double</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
